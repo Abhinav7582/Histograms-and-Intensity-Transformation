@@ -17,3 +17,5 @@ Image Negatives (Linear)
 Log Transformations
 Power-Law (Gamma) Transformations
 Piecewise-Linear Transformation Functions
+
+Thresholding is used in image segmentation this means extracting objects from an image. Image segmentation is used in many applications including extracting text, medical imaging, and industrial imaging. Thresholding an image takes a threshold; If a particular pixel (i,j) is greater than that threshold it will set that pixel to some value usually 1 or 255, otherwise, it will set it to another value, usually zero. We can write a Python function that will perform thresholding and output a new image given some input grayscale image.
